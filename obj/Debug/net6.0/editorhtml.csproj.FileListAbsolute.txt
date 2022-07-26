@@ -1,0 +1,5 @@
+C:\desenvolvimento.projetos\editorhtml\obj\Debug\net6.0\editorhtml.csproj.AssemblyReference.cache
+C:\desenvolvimento.projetos\editorhtml\obj\Debug\net6.0\editorhtml.GeneratedMSBuildEditorConfig.editorconfig
+C:\desenvolvimento.projetos\editorhtml\obj\Debug\net6.0\editorhtml.AssemblyInfoInputs.cache
+C:\desenvolvimento.projetos\editorhtml\obj\Debug\net6.0\editorhtml.AssemblyInfo.cs
+C:\desenvolvimento.projetos\editorhtml\obj\Debug\net6.0\editorhtml.csproj.CoreCompileInputs.cache
