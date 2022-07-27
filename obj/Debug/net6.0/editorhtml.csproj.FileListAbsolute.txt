@@ -3,3 +3,13 @@ C:\desenvolvimento.projetos\editorhtml\obj\Debug\net6.0\editorhtml.GeneratedMSBu
 C:\desenvolvimento.projetos\editorhtml\obj\Debug\net6.0\editorhtml.AssemblyInfoInputs.cache
 C:\desenvolvimento.projetos\editorhtml\obj\Debug\net6.0\editorhtml.AssemblyInfo.cs
 C:\desenvolvimento.projetos\editorhtml\obj\Debug\net6.0\editorhtml.csproj.CoreCompileInputs.cache
+C:\desenvolvimento.projetos\editorhtml\bin\Debug\net6.0\editorhtml.exe
+C:\desenvolvimento.projetos\editorhtml\bin\Debug\net6.0\editorhtml.deps.json
+C:\desenvolvimento.projetos\editorhtml\bin\Debug\net6.0\editorhtml.runtimeconfig.json
+C:\desenvolvimento.projetos\editorhtml\bin\Debug\net6.0\editorhtml.dll
+C:\desenvolvimento.projetos\editorhtml\bin\Debug\net6.0\editorhtml.pdb
+C:\desenvolvimento.projetos\editorhtml\obj\Debug\net6.0\editorhtml.dll
+C:\desenvolvimento.projetos\editorhtml\obj\Debug\net6.0\refint\editorhtml.dll
+C:\desenvolvimento.projetos\editorhtml\obj\Debug\net6.0\editorhtml.pdb
+C:\desenvolvimento.projetos\editorhtml\obj\Debug\net6.0\editorhtml.genruntimeconfig.cache
+C:\desenvolvimento.projetos\editorhtml\obj\Debug\net6.0\ref\editorhtml.dll
