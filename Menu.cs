@@ -14,7 +14,11 @@ namespace editorhtml
 
             WriteOptions();
 
+
             var option = short.Parse(Console.ReadLine());
+            
+            HandleMenuOptions(option);
+
         }
 
         public static void DrawScreen()//Função criada para desenhar a tela
@@ -69,6 +73,20 @@ namespace editorhtml
 
         }
 
-
+        public static void HandleMenuOptions(short option)//O short option foi adicionado como parâmetro, já que a variável não foi tornada pública
+        {
+            switch(option)
+            {
+                case 1: Console.WriteLine("Editor"); break;
+                case 2: Console.WriteLine("View"); break;
+                case 0: 
+                {
+                    Console.Clear();
+                    Environment.Exit(0);
+                    break;
+                }
+                default: Show(); break;
+            }
+        }
     }
 }
