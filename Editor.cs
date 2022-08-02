@@ -27,8 +27,31 @@ namespace editorhtml
             } while(Console.ReadKey().Key != ConsoleKey.Escape);
 
             Console.WriteLine("-----------");
-            Console.WriteLine(" Deseja salvar o arquivo?");//Lição de casa: Armazenar sim ou não do usuário. 
+            Console.WriteLine(" Deseja salvar o arquivo? (1) Sim // (0) Não. ");//Lição de casa: Armazenar sim ou não do usuário. 
             //Se digitar não ele perde o arquivo. Se digitar sim ele vai chamar o visualizador, o view.
+            int salvarOuNao = int.Parse(Console.ReadLine());
+
+            switch(salvarOuNao)
+            {
+                case 0: Environment.Exit(0); break;
+                case 1: Salvar(); break;
+            }
+        }
+
+        static void Salvar()
+        {
+            Console.Clear();
+            Console.WriteLine("Qual o caminho para salvar o arquivo? ");
+            var path = Console.ReadLine();
+
+            using (var file = new StreamWriter(path))
+            {
+                file.Write(file);
+            }
+
+            Console.WriteLine($"Arquivo {path} salvo com sucesso.");
+            Console.ReadLine();       
+
         }
     }
 }
