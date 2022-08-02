@@ -29,6 +29,9 @@ namespace editorhtml
             Console.WriteLine("-----------");
             Console.WriteLine(" Deseja salvar o arquivo? (1) Sim // (0) Não. ");//Lição de casa: Armazenar sim ou não do usuário. 
             //Se digitar não ele perde o arquivo. Se digitar sim ele vai chamar o visualizador, o view.
+
+            Viewer.Show(file.ToString());
+            /*
             int salvarOuNao = int.Parse(Console.ReadLine());
 
             switch(salvarOuNao)
@@ -36,8 +39,10 @@ namespace editorhtml
                 case 0: Environment.Exit(0); break;
                 case 1: Salvar(); break;
             }
+            */
         }
 
+        /*
         static void Salvar()
         {
             Console.Clear();
@@ -53,5 +58,6 @@ namespace editorhtml
             Console.ReadLine();       
 
         }
+        */
     }
 }
