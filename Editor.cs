@@ -5,7 +5,7 @@ namespace editorhtml
 {
     public static class Editor//Criada uma classe chamada editor para usá - la no menu
     {
-        static void Show()//Método para Modo de edição
+        public static void Show()//Método para Modo de edição. Tornei público para ter acesso
         {
             Console.Clear();
             Console.BackgroundColor = ConsoleColor.White;
@@ -16,7 +16,7 @@ namespace editorhtml
             Start();
         }
 
-        static void Start()
+        public static void Start()//Tornei público para ter acesso
         {
             var file = new StringBuilder();
 
@@ -27,7 +27,7 @@ namespace editorhtml
             } while(Console.ReadKey().Key != ConsoleKey.Escape);
 
             Console.WriteLine("-----------");
-            Console.WriteLine("Deseja salvar o arquivo?");//Lição de casa: Armazenar sim ou não do usuário. 
+            Console.WriteLine(" Deseja salvar o arquivo?");//Lição de casa: Armazenar sim ou não do usuário. 
             //Se digitar não ele perde o arquivo. Se digitar sim ele vai chamar o visualizador, o view.
         }
     }
